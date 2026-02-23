@@ -29,21 +29,30 @@ public class Main {
             switch (choice) {
                 case 1:
                     // TODO
+                    studentService.printStudents();
+                    studentService.findHighestGPA();
                     break;
                 case 2:
                     // TODO
+                    appointmentService.printAppointments();
+                    appointmentService.showFirstAndLast();
                     break;
                 case 3:
                     // TODO
+                    issueService.showMostUrgent();
+                    issueService.printRemainingIssues();
                     break;
                 case 4:
                     // TODO
+                    actionService.printHistory();
                     break;
                 case 5:
                     // TODO
+                    actionService.addRequestedTranscript();
                     break;
                 case 6:
                     // TODO
+                    actionService.undoLastAction();
                     break;
                 case 7:
                     System.out.println("Exiting... 👋");
