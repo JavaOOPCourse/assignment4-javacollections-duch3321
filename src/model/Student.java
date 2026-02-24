@@ -29,7 +29,7 @@ public class Student {
 
     // TODO: override toString()
     public String toString(){
-        return ("Name : "+this.name+" id : "+this.id+" GPA : "+this.gpa);
+        return ("Name : "+this.name+" , id : "+this.id+" , GPA : "+this.gpa);
     }
 
 }

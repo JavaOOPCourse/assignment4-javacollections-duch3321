@@ -14,14 +14,11 @@ public Issue (String description , int urgencyLevel){
     @Override
     public int compareTo(Issue other) {
         // TODO: implement priority logic
-        if(this.urgencyLevel> other.urgencyLevel){
-            return (other.urgencyLevel);
-        }
-        return 0;
+        return (this.urgencyLevel- other.urgencyLevel);
     }
 
     // TODO: override toString()
     public String toString(){
-    return ("description : "+this.description+" urgency level "+this.urgencyLevel);
+    return ("description : "+this.description+" , urgency level : "+this.urgencyLevel);
     }
 }

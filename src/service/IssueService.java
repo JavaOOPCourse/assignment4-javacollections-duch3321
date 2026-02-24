@@ -20,7 +20,7 @@ public class IssueService {
 
     public void showMostUrgent() {
         // TODO: Show most urgent issue
-        System.out.println("Most important issue : "+issues.peek());
+        System.out.println(issues.peek());
     }
 
     public void resolveIssues() {

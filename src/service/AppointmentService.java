@@ -9,12 +9,12 @@ public class AppointmentService {
 
     public void initializeAppointments() {
         // TODO: Add 3 normal appointments
-        appointments.add("a");
-        appointments.add("b");
-        appointments.add("c");
+        appointments.add("Danya");
+        appointments.add("Dany");
+        appointments.add("Dan");
         System.out.println("added 3 normal appointments");
         // TODO: Add 1 urgent appointment at the beginning
-        appointments.addFirst("d");
+        appointments.addFirst("Danon");
         System.out.println("added 1 urgent appointment");
 
     }
